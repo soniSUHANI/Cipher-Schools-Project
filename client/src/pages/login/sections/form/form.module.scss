@@ -1,0 +1,21 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+    p {
+        display: block;
+        font-size: var(--fs-md);
+        color: var(--black);
+    }
+    
+    span {
+        font-weight: var(--fw-bold);
+        font-size: var(--fs-md);
+        cursor: pointer;
+    }
+    
+}

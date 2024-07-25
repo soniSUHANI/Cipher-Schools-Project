@@ -1,0 +1,46 @@
+.sidebar{
+position: fixed;
+display: grid;
+height: 100vh;
+width: 80px;
+align-items: flex-start;
+background-color: var(--black);
+grid-template-rows:60px auto 60px;
+
+    .logo{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        img{
+            width: 40px;
+        }
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        height: 100%;
+        .item{
+            svg{
+                cursor: pointer;
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+
+    .logout{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        svg{
+            cursor: pointer;
+            width: 35px;
+            height: 35px;
+            color: var(--grey-400);
+        }
+    }
+}
